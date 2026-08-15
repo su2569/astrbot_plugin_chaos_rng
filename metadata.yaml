@@ -1,0 +1,13 @@
+name: astrbot_plugin_chaos_rng
+version: 2.1.0
+author: su2569
+desc: 多源熵融合随机数生成器（物理/语义/天气），TCP服务 0.0.0.0:18888
+repo: https://github.com/su2569/astrbot_plugin_chaos_rng
+tags:
+  - random
+  - entropy
+  - security
+  - weather
+dependencies:
+  - psutil
+  - aiohttp
